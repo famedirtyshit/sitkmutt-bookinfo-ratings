@@ -47,3 +47,4 @@ jobs:
                 "COMMIT_SHA": "${{ github.sha }}"
               }
             }
+      - run: curl http://sitkmutt.bookinfo.dev.opsta.net/student17/ratings/health | grep "Ratings is good"
